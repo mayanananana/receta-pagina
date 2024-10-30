@@ -1,0 +1,194 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(cocina-bg.jpeg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    color: white;
+    position: relative;
+    padding: 20px;
+}
+
+.header p {
+    color: lightgrey;
+    font-weight: 600;
+}
+
+.header-content {
+    position: absolute;
+    bottom: 100px; /* Coloca el contenido a 20px del fondo */
+    left: 20px; /* Coloca el contenido a 20px del borde izquierdo */
+    max-width: 500px; /* Controla el ancho del contenido */
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.header-content h1,
+.header-content p {
+    width: 100%;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+
+.container-box {
+    flex: 1;
+    margin: 5px;
+    background-color: #f0f0f0; /* Color de fondo */
+    padding: 10px;
+    text-align: center;
+    display: flex;             /* Flexbox para centrar el contenido */
+    flex-direction: column;    /* Organizar contenido en columna */
+    align-items: center;
+    border-radius: 10px;
+}
+
+.container-img {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+}
+
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+article {
+    border-radius: 5px; /* Radio del borde */
+    padding: 20px; /* Espacio interior */
+    margin: 10px 0; /* Espacio entre artículos */
+    background-color: #f9f9f9; /* Color de fondo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /*Ultima actualizacion*/
+    max-width: 100%;
+    overflow: hidden;
+
+}
+
+
+article:hover {
+    transform: scale(1.03);
+}
+
+
+.header {
+    display: flex;                /* Usa flexbox para el diseño */
+    flex-direction: column;      /* Coloca el navbar y el contenido en columnas */
+    padding: 20px;               /* Espacio interior del header */
+}
+
+
+
+
+
+
+
+
+
+.navbar {
+    margin-bottom: 20px;         /* Espacio entre el navbar y el contenido */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar ul {
+    list-style: none;            /* Elimina los puntos de la lista */
+    padding: 0;                 /* Elimina el padding por defecto */
+    margin: 0;                  /* Elimina el margin por defecto */
+    display: flex;              /* Usamos flexbox para los elementos de la lista */
+    font-weight: bold;
+}
+
+.navbar li {
+    margin-right: 20px;
+        /* Espaciado entre los elementos de la lista */
+}
+.navbar a:hover {
+color: black;
+}
+.navbar a {
+    text-decoration: none;       /* Elimina el subrayado del enlace */
+    color: white;               /* Color del texto */
+}
+
+.header-content {
+    margin-top: 10px;           /* Espacio superior opcional para separar el contenido */
+}
+
+.responsive-img {
+    width: 1200px;
+    height: auto;
+    max-width: 100%;
+    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    color: white;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white; 
+}
+
+/* Quitar los puntos de la lista */
+.footer ul {
+    list-style: none;
+}
+
+
+
+.footer-container {
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    display: flex;             /* Flexbox para centrar el contenido */
+      flex-direction: column;    /* Organizar contenido en columna */
+      align-items: center;
+      border-radius: 10px;
+}
+
+button {
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    border: 0px;
+    margin: auto;
+    text-align: left;
+    font-size: 20px;
+    background: gray;
+    color: white;
+
+}
+
+
+
+
+
